@@ -7,6 +7,7 @@ import Post from "./components/Post";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 
+
 function App() {
   return (
     <React.Fragment>
