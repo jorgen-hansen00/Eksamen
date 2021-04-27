@@ -31,6 +31,13 @@ export default function NavBar() {
           >
             About
           </NavLink>
+          <NavLink
+            to="/post/galleri"
+            activeClassName="text-red-100 bg-red-700"
+            className="inline-flex items-center py-3 my-6 rounded px-3 text-red-200 hover:text-red-100"
+          >
+            Galleri
+          </NavLink>
         </div>
         <div className="inline-flex py-3 my-6 px-3">
           <SocialIcon

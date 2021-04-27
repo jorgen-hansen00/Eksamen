@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
+    <React.Fragment>
     <BrowserRouter>
       <NavBar />
       <Switch>
@@ -31,6 +32,7 @@ function App() {
       </div>
       <Footer />
     </div>
+    </React.Fragment>
   );
 }
 
